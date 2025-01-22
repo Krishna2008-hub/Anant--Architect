@@ -1,0 +1,31 @@
+
+
+#Landingpage{
+    background: url('../src/assets/Components/Images/bg-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100vh;
+    animation: l1 1.5s ease-in-out 0s 1 ;
+}
+
+nav, .landingPageMain, #Aboutus, #Contact{
+    font-family: "Inknut Antiqua", serif;
+    animation: l1 4s ease-in-out 0s 1 ;
+}
+
+#Aboutus p{
+    font-family: "Inknut Antiqua", serif;
+}
+
+@keyframes l1 {
+    0%{
+        opacity: 0%;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}

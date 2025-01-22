@@ -1,0 +1,18 @@
+/* .low{
+    height: 220px;
+    margin-top: 45px;
+    margin-left: 210px;
+    transform: rotate(3deg);
+} */
+
+.images{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.imag{
+    height: 200px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
