@@ -7,19 +7,19 @@ export default function Landing() {
     <>
         <div className="" id='Landingpage'>
 
-            <nav className="grid grid-cols-8 mx-4">
-                <ul className="flex justify-evenly items-center col-span-3 col-end-9 gap-10 pt-4">
-                    <li className="text-[#00008B] hover:text-xl transform duration-300 font-semibold text-lg "><Link to="/" className="">Home</Link></li>
-                    <li className="text-[#00008B] hover:text-xl transform duration-300 font-semibold text-lg "><Link to="/Project" className="">Recent Projects</Link></li>
-                    <li className="text-[#00008B] hover:text-xl transform duration-300 font-semibold text-lg "><Link to="/About-Us" className="">About Us</Link></li>
-                    <li className="text-[#00008B] hover:text-xl transform duration-300 font-semibold text-lg "><Link to="/Contact" className="">Contact</Link></li>
+            <nav className="grid 2xl:grid-cols-8 md:grid-cols-6 lg:grid-cols-6  mx-4 max-[500px]:text-sm">
+                <ul className="flex justify-evenly items-center col-span-3 md:col-span-4 2xl:col-end-9 md:col-end-7 lg:col-end-7 md:gap-10 gap-6 pt-4 ">
+                    <li className="text-[#00008B] hover:text-xl transform duration-300 font-semibold text-lg max-[500px]:text-[14px]"><Link to="/" className="">Home</Link></li>
+                    <li className="text-[#00008B] hover:text-xl transform duration-300 font-semibold text-lg max-[500px]:text-[14px]"><Link to="/Project" className="">Recent Projects</Link></li>
+                    <li className="text-[#00008B] hover:text-xl transform duration-300 font-semibold text-lg max-[500px]:text-[14px]"><Link to="/About-Us" className="">About Us</Link></li>
+                    <li className="text-[#00008B] hover:text-xl transform duration-300 font-semibold text-lg max-[500px]:text-[14px]"><Link to="/Contact" className="">Contact</Link></li>
                 </ul>
             </nav>
 
             <div className="flex justify-center items-center flex-col mt-20 gap-5 landingPageMain">
                 <img src={logo} alt="" className="" />
-                <h1 className="text-5xl font-bold text-[#00008B]">ANANT ARCHITECTS</h1>
-                <p className="text-lg font-semibold text-[#00008B]">"Crafting spaces that tell stories of beauty, innovation, and timeless design."</p>
+                <h1 className="text-5xl font-bold text-[#00008B] max-[1000px]:text-center">ANANT ARCHITECTS</h1>
+                <p className="text-lg font-semibold text-[#00008B] max-[1000px]:text-center">"Crafting spaces that tell stories of beauty, innovation, and timeless design."</p>
 
             </div>
 
